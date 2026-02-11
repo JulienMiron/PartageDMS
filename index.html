@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de partage d'informations importantes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #052E2B, #0F766E, #A7F3D0);
+            min-height: 100vh;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            color: rgb(184, 9, 228);
+            margin-bottom: 30px;
+            font-size: 28px;
+            text-align: center;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            padding: 24px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+        }
+
+        .card h2 {
+            color: rgb(184, 9, 228);
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .card a {
+            color: #0F766E;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Site de partage d'informations importantes</h1>
+    <div class="grid">
+        <div class="card">
+            <h1>Examens</h1>
+            <p><a href="Evaluation.cls">Classe latex pour le gabarit examen</a></p>
+            <p><a href="Exemple examen.tex">Exemple d'examen à utiliser avec la classe latex</a></p>
+            <p><a href="calendrier-SSE-H26.pdf" target="_blank">Calendrier des dates d'examen du SSE</a></p>
+        </div>
+        <div class="card">
+            <h1>Guide de l'enseignant</h1>
+            <p><a href="Guide enseignant DMS 25-26.pdf" target="_blank">Guide de l'enseignant</a></p>
+        </div>
+        <div class="card">
+            <h1>Item 3</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 4</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 5</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 6</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 7</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 8</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 9</h1>
+            <p>Description à venir</p>
+        </div>
+        <div class="card">
+            <h1>Item 10</h1>
+            <p>Description à venir</p>
+        </div>
+    </div>
+</body>
+</html>
