@@ -72,15 +72,15 @@
 
         /* ── Main content ── */
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 32px 20px 60px;
         }
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 22px;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 15px;
         }
 
         /* ── Cards ── */
@@ -121,6 +121,7 @@
         .card-icon.red    { background: #FDEBED; color: var(--ulaval-red); }
         .card-icon.gold   { background: var(--ulaval-gold-soft); color: #B07D00; }
         .card-icon.blue   { background: #E8F0FE; color: #1A56DB; }
+        .card-icon.green  { background: #EAF8EE; color: #1E8E3E; }
 
         .card-header h2 {
             font-size: 17px;
@@ -275,7 +276,8 @@
                 </div>
                 <div class="card-body">
                     <ul class="link-list">
-                        <li><a href="Consigne pour les surveillants.pdf"><i class="fa-solid fa-chevron-right"></i> Consignes pour les surveillants</a></li>
+                        <li><a href="calendrier examen H26 CDA.pdf" target="_blank"><i class="fa-solid fa-chevron-right"></i> Calendrier des examens H26 DMS</a></li>
+
                         <li><a href="Evaluation.cls"><i class="fa-solid fa-chevron-right"></i> Classe LaTeX pour le gabarit examen</a></li>
                         <li><a href="Exemple examen.tex"><i class="fa-solid fa-chevron-right"></i> Exemple d'examen (classe LaTeX)</a></li>
                         <li><a href="https://julienmiron.github.io/PDFExamens/" target="_blank"><i class="fa-solid fa-chevron-right"></i> Copies nominatives &amp; listes de présence</a></li>
@@ -301,13 +303,28 @@
                     <ul class="link-list">
                         <li><a href="Guide enseignant DMS 25-26.pdf" target="_blank"><i class="fa-solid fa-chevron-right"></i> Guide de l'enseignant 2025-2026</a></li>
                         <li><a href="Guide auxiliaire d'enseignement H26.pdf" target="_blank"><i class="fa-solid fa-chevron-right"></i> Guide de l'auxiliaire d'enseignement 2025-2026</a></li>
+                        <li><a href="Consigne pour les surveillants.pdf"><i class="fa-solid fa-chevron-right"></i> Consignes pour les surveillants</a></li>
                         <li><a href="Politique d'aide pédagogique du DMS.pdf" target="_blank"><i class="fa-solid fa-chevron-right"></i> Politique d'aide pédagogique du DMS</a></li>
                         <li><a href="Tab_aux_ens_H26-final.pdf" target="_blank"><i class="fa-solid fa-chevron-right"></i> Tableau des auxiliaires d'enseignement H26</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Informations générales -->
+            <!-- Gestion des copies d'examen -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon green"><i class="fa-solid fa-file-pen"></i></div>
+                    <h2>Gestion des copies d'examen</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="link-list">
+                        <li><a href="https://www.fsg.ulaval.ca/departements/departement-de-mathematiques-et-de-statistique" target="_blank"><i class="fa-solid fa-chevron-right"></i> Site web du CDA</a></li>
+                        <li><a href="Journee-passerelle_H26.pdf" target="_blank"><i class="fa-solid fa-chevron-right"></i> Journées passerelles H26</a></li>
+                        <li><a href="https://ulavaldti.sharepoint.com/sites/AuxiliaireduDMS" target="_blank"><i class="fa-solid fa-chevron-right"></i> Espace des auxiliaires du DMS (recrutement et formation)</a></li>
+                    </ul>
+                </div>
+            </div>
+                        <!-- Informations générales -->
             <div class="card">
                 <div class="card-header">
                     <div class="card-icon blue"><i class="fa-solid fa-circle-info"></i></div>
